@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AwsSpringBootCicdController {
 
-    @GetMapping("/aws-cicd-demo")
+    @GetMapping("/aws-cicd")
     public String getMessage(){
-        return "AWS - CICD Demo says .. Hello World !!! Great Work !!!";
+        return "AWS - CICD with Elastic Beanstalk - Code Pipeline and Code Build is done !!! Great Work !!!";
     }
 
 }
