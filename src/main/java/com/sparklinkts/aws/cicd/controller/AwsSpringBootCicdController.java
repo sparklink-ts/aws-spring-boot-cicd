@@ -8,7 +8,7 @@ public class AwsSpringBootCicdController {
 
     @GetMapping("/aws-cicd-demo")
     public String getMessage(){
-        return "AWS - CICD Demo says .. Hello World !!!";
+        return "AWS - CICD Demo says .. Hello World !!! Great Work !!!";
     }
 
 }
