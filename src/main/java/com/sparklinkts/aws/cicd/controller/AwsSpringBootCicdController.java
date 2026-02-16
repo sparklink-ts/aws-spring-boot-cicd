@@ -8,7 +8,7 @@ public class AwsSpringBootCicdController {
 
     @GetMapping("/aws-cicd")
     public String getMessage(){
-        return "AWS - CICD with Elastic Beanstalk - Code Pipeline and Code Build is done !!! Great Work !!!";
+        return "AWS - CICD with Elastic Beanstalk - Code Pipeline - Code Build with POD Lead Manual Approval and PROD Deployment is done !!! Great Work !!!";
     }
 
 }
