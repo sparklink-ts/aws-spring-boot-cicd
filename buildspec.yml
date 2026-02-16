@@ -1,0 +1,15 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "Starting building stage"
+      - echo "Command to package the application into a JAR"
+      - mvn clean package
+  post_build:
+    commands:
+      - echo "Building complete"
+artifacts:
+  files:
+    # Specify the JAR files to be deployed
+    - target/aws-spring-boot-cicd.jar
+  discard-paths: yes
