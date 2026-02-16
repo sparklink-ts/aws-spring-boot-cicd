@@ -3,4 +3,4 @@
 
 
 
-   URL : http://localhost:5000/aws-cicd-demo
+   URL : http://localhost:5000/aws-cicd
